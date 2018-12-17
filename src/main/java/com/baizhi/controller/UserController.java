@@ -15,6 +15,7 @@ public class UserController {
     @Autowired
     private UserMapper userMapper;
 
+
     @RequestMapping("queryUser")
     public void queryUser(){
         System.out.println("123213");
